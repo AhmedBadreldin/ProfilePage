@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		5E01F5701D4AAB4C006D8404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01F56F1D4AAB4C006D8404 /* AppDelegate.swift */; };
 		5E01F5721D4AAB4C006D8404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01F5711D4AAB4C006D8404 /* ViewController.swift */; };
-		5E01F5751D4AAB4C006D8404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E01F5731D4AAB4C006D8404 /* Main.storyboard */; };
+		5E01F5751D4AAB4C006D8404 /* ProfilePageMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E01F5731D4AAB4C006D8404 /* ProfilePageMain.storyboard */; };
 		5E01F5771D4AAB4C006D8404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E01F5761D4AAB4C006D8404 /* Assets.xcassets */; };
 		5E01F57A1D4AAB4C006D8404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E01F5781D4AAB4C006D8404 /* LaunchScreen.storyboard */; };
 		5E01F5851D4AAB4C006D8404 /* ProfilePgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01F5841D4AAB4C006D8404 /* ProfilePgTests.swift */; };
 		5E01F5901D4AAB4C006D8404 /* ProfilePgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01F58F1D4AAB4C006D8404 /* ProfilePgUITests.swift */; };
 		5E0D67021D57AABC003CBB10 /* FiraSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D67011D57AABC003CBB10 /* FiraSans-Regular.otf */; };
 		5E0D67041D57AAC6003CBB10 /* FiraSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D67031D57AAC6003CBB10 /* FiraSans-Light.otf */; };
+		5E5189AC1D58C89100EC915C /* ProfilePageNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5189AB1D58C89100EC915C /* ProfilePageNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		5E01F56C1D4AAB4C006D8404 /* ProfilePg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfilePg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E01F56F1D4AAB4C006D8404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E01F5711D4AAB4C006D8404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E01F5741D4AAB4C006D8404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E01F5741D4AAB4C006D8404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProfilePageMain.storyboard; sourceTree = "<group>"; };
 		5E01F5761D4AAB4C006D8404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E01F5791D4AAB4C006D8404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E01F57B1D4AAB4C006D8404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		5E01F5911D4AAB4C006D8404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E0D67011D57AABC003CBB10 /* FiraSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.otf"; sourceTree = "<group>"; };
 		5E0D67031D57AAC6003CBB10 /* FiraSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.otf"; sourceTree = "<group>"; };
+		5E5189AB1D58C89100EC915C /* ProfilePageNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePageNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				5E01F56F1D4AAB4C006D8404 /* AppDelegate.swift */,
+				5E5189AB1D58C89100EC915C /* ProfilePageNavigationViewController.swift */,
 				5E01F5711D4AAB4C006D8404 /* ViewController.swift */,
-				5E01F5731D4AAB4C006D8404 /* Main.storyboard */,
+				5E01F5731D4AAB4C006D8404 /* ProfilePageMain.storyboard */,
 				5E01F5761D4AAB4C006D8404 /* Assets.xcassets */,
 				5E01F5781D4AAB4C006D8404 /* LaunchScreen.storyboard */,
 				5E01F57B1D4AAB4C006D8404 /* Info.plist */,
@@ -248,7 +251,7 @@
 				5E0D67021D57AABC003CBB10 /* FiraSans-Regular.otf in Resources */,
 				5E01F5771D4AAB4C006D8404 /* Assets.xcassets in Resources */,
 				5E0D67041D57AAC6003CBB10 /* FiraSans-Light.otf in Resources */,
-				5E01F5751D4AAB4C006D8404 /* Main.storyboard in Resources */,
+				5E01F5751D4AAB4C006D8404 /* ProfilePageMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E01F5721D4AAB4C006D8404 /* ViewController.swift in Sources */,
+				5E5189AC1D58C89100EC915C /* ProfilePageNavigationViewController.swift in Sources */,
 				5E01F5701D4AAB4C006D8404 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,12 +314,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E01F5731D4AAB4C006D8404 /* Main.storyboard */ = {
+		5E01F5731D4AAB4C006D8404 /* ProfilePageMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5E01F5741D4AAB4C006D8404 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ProfilePageMain.storyboard;
 			sourceTree = "<group>";
 		};
 		5E01F5781D4AAB4C006D8404 /* LaunchScreen.storyboard */ = {

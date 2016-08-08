@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5BFE3165EA0268B0574EA6D1FB2995FF3F31811",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5BFE3165EA0268B0574EA6D1FB2995FF3F31811" : 0,
+    "E23D55FFF6003C77A7BE58F7A6BD5FE22B294E41" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A2D545E3-BB8F-4A58-BF43-B0B7C2FAEB47",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5BFE3165EA0268B0574EA6D1FB2995FF3F31811" : "ProfilePg\/",
+    "E23D55FFF6003C77A7BE58F7A6BD5FE22B294E41" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProfilePg",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ProfilePg.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cybourgeoisie\/Someonew.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5BFE3165EA0268B0574EA6D1FB2995FF3F31811"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AhmedBadreldin\/ProfilePg.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E23D55FFF6003C77A7BE58F7A6BD5FE22B294E41"
+    }
+  ]
+}
