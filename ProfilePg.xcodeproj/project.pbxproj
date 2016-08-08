@@ -14,6 +14,8 @@
 		5E01F57A1D4AAB4C006D8404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E01F5781D4AAB4C006D8404 /* LaunchScreen.storyboard */; };
 		5E01F5851D4AAB4C006D8404 /* ProfilePgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01F5841D4AAB4C006D8404 /* ProfilePgTests.swift */; };
 		5E01F5901D4AAB4C006D8404 /* ProfilePgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01F58F1D4AAB4C006D8404 /* ProfilePgUITests.swift */; };
+		5E0D67021D57AABC003CBB10 /* FiraSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D67011D57AABC003CBB10 /* FiraSans-Regular.otf */; };
+		5E0D67041D57AAC6003CBB10 /* FiraSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D67031D57AAC6003CBB10 /* FiraSans-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5E01F58B1D4AAB4C006D8404 /* ProfilePgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfilePgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E01F58F1D4AAB4C006D8404 /* ProfilePgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePgUITests.swift; sourceTree = "<group>"; };
 		5E01F5911D4AAB4C006D8404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0D67011D57AABC003CBB10 /* FiraSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.otf"; sourceTree = "<group>"; };
+		5E0D67031D57AAC6003CBB10 /* FiraSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				5E01F5831D4AAB4C006D8404 /* ProfilePgTests */,
 				5E01F58E1D4AAB4C006D8404 /* ProfilePgUITests */,
 				5E01F56D1D4AAB4C006D8404 /* Products */,
+				5E0D67001D57AA3E003CBB10 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +128,16 @@
 				5E01F5911D4AAB4C006D8404 /* Info.plist */,
 			);
 			path = ProfilePgUITests;
+			sourceTree = "<group>";
+		};
+		5E0D67001D57AA3E003CBB10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D67011D57AABC003CBB10 /* FiraSans-Regular.otf */,
+				5E0D67031D57AAC6003CBB10 /* FiraSans-Light.otf */,
+			);
+			name = Resources;
+			path = ProfilePg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E01F57A1D4AAB4C006D8404 /* LaunchScreen.storyboard in Resources */,
+				5E0D67021D57AABC003CBB10 /* FiraSans-Regular.otf in Resources */,
 				5E01F5771D4AAB4C006D8404 /* Assets.xcassets in Resources */,
+				5E0D67041D57AAC6003CBB10 /* FiraSans-Light.otf in Resources */,
 				5E01F5751D4AAB4C006D8404 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +501,7 @@
 				5E01F5961D4AAB4C006D8404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E01F5971D4AAB4C006D8404 /* Build configuration list for PBXNativeTarget "ProfilePgTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +510,7 @@
 				5E01F5991D4AAB4C006D8404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E01F59A1D4AAB4C006D8404 /* Build configuration list for PBXNativeTarget "ProfilePgUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +519,7 @@
 				5E01F59C1D4AAB4C006D8404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
